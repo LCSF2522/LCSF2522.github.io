@@ -33,9 +33,21 @@ nav li a {
 header {
     text-align: center;
     font-size: 1.5em;
-    color: #373684;
+    color: cornflowerblue;
 }
 
 header h1 {
     font-family: "DM Serif Display";
+}
+
+/* Style rules for main content */
+main {
+    padding: 2%;
+    background-color: #e5e9fc;
+    overflow: auto;
+    font-family: "Roboto";
+}
+
+main p {
+    font-size: 1.25em;
 }
