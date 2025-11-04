@@ -5,6 +5,26 @@ body, header, nav, main, footer, img, h1, ul {
     border: 0;
 }
 
-body {
+/* Style rules for navigation area */
+nav {
     background-color: cornflowerblue;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: block;
+    font-size: 2em;
+    border-top: 1px solid #e5e9fc;
+}
+
+nav li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 0.5em 1em;
+    text-decoration: none;
 }
