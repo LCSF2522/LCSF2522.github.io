@@ -6,6 +6,10 @@ body, header, nav, main, footer, img, h1, ul {
 }
 
 /* Style rules for container element */
+#container {
+    width: auto;
+    align-items: center;
+}
 
 /* Style rules for header content */
 header {
@@ -25,6 +29,8 @@ header h1 {
 /* Style rules for navigation area */
 nav {
     background-color: cornflowerblue;
+    margin: auto;
+    padding: auto;
 }
 
 nav ul {
@@ -49,10 +55,13 @@ nav li a {
 
 /* Style rules for main content */
 main {
+    margin: 2%;
     padding: 2%;
     background-color: #e5e9fc;
     overflow: auto;
     font-family: "Roboto";
+    border-radius: 10px;
+    /*Add shadow here*/
 }
 
 main p {
