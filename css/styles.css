@@ -8,7 +8,7 @@ body, header, nav, main, footer, img, h1, ul {
 /* Style rules for container element */
 #container {
     width: auto;
-    align-content: center;
+    align-items: center;
 }
 
 /* Style rules for header content */
@@ -29,6 +29,9 @@ header h1 {
 /* Style rules for navigation area */
 nav {
     background-color: cornflowerblue;
+    margin: auto;
+    padding: auto;
+    border-radius: 2%;
 }
 
 nav ul {
