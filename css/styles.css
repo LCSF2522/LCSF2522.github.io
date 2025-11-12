@@ -6,10 +6,6 @@ body, header, nav, main, footer, img, h1, ul {
 }
 
 /* Style rules for container element */
-#container {
-    width: auto;
-    align-items: center;
-}
 
 /* Style rules for header content */
 header {
