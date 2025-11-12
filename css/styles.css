@@ -1,8 +1,29 @@
 /* CSS Reset */
 body, header, nav, main, footer, img, h1, ul {
-    margin: o;
-    padding: o;
+    margin: 0;
+    padding: 0;
     border: 0;
+}
+
+/* Style rules for container element */
+#container {
+    width: auto;
+    align-content: center;
+}
+
+/* Style rules for header content */
+header {
+    text-align: center;
+    font-size: 1.5em;
+    color: cornflowerblue;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 10px;
+    /* Insert shadow here */
+}
+
+header h1 {
+    font-family: "DM Serif Display";
 }
 
 /* Style rules for navigation area */
@@ -29,16 +50,6 @@ nav li a {
     text-decoration: none;
 }
 
-/* Style rules for header content */
-header {
-    text-align: center;
-    font-size: 1.5em;
-    color: cornflowerblue;
-}
-
-header h1 {
-    font-family: "DM Serif Display";
-}
 
 /* Style rules for main content */
 main {
