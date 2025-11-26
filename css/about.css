@@ -73,6 +73,7 @@ main p {
     font-size: 1.25em;
 }
 
+
 /* Style rules for footer content */
 footer {
     text-align: center;
@@ -84,4 +85,60 @@ footer {
 footer a {
     color: cornflowerblue;
     text-decoration: none;
+}
+
+/* Show mobile class, hide tablet-desktop */
+.mobile {
+	display: block;
+}
+
+.tablet-desktop {
+	display: none;
+}
+
+/* Media Query for Tablet Viewport */
+@media screen and (min-width: 630px),print {
+
+	/* Tablet Viewport: Show tablet-desktop class, hide mobile class */
+	.tablet-desktop {
+		display: block;
+	}
+
+	.mobile {
+		display: none;
+	}
+
+	/* Tablet Viewport: Style rules for header */
+	header {
+		position: static;
+		padding-bottom: 2%;
+	}
+
+	/* Tablet Viewport: Style rules for nav */
+	nav {
+		background-color: cornflowerblue;
+		margin: auto;
+		padding: auto;
+		border: 1px solid black;
+		color: black;
+	}
+
+	nav ul {
+		list-style-type: none;
+		text-align: center;
+	}
+
+	nav li {
+		display: block;
+		font-size: 2em;
+		border-top: 1px solid #e5e9fc;
+	}
+
+	nav li a {
+		display: block;
+		color: #fff;
+		text-align: center;
+		padding: 0.5em 1em;
+		text-decoration: none;
+	}
 }
