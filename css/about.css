@@ -141,4 +141,12 @@ footer a {
 		padding: 0.5em 1em;
 		text-decoration: none;
 	}
+
+	nav li a:link {
+		color: white;
+	}
+
+	nav li a:hover {
+		color:black;
+	}
 }
