@@ -29,6 +29,7 @@
                 <div>&#9776;</div>
             </a>
         </nav>
+
         <header>
             <!-- company banner goes here -->
             <a href="index.html"> <img src="images/wavecorelogo.png" alt="WaveCore Logo"></a>
@@ -48,6 +49,67 @@
         </nav>
 
         <main>
+
+            <div id="contact">
+
+                <h2>Ready to get started? Contact us today!</h2>
+                <h4 class="mobile tel-link"><a href="tel:5193843665">(519) 384-3665</a></h4>
+                <h4 class="tablet-desktop tel-num">(519) 384-3665</h4>
+                <h4>Email us at: <a href="mailto:microwaves@wavecore.com" class="contact-email-link">microwaves@wavecore.com</a></h4>
+
+            </div>
+
+            <div id="form">
+
+                <form>
+
+                    <fieldset>
+                        <legend>Customer Information</legend>
+                        <label for="fName">First Name:</label>
+					    <input type="text" id="fName" name="fName" required placeholder="Jane">
+
+                        <label for="lName">Last Name:</label>
+                        <input type="text" name="lName" id="lName" required placeholder="Doe">
+
+                        <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" name="phone" required placeholder="123-456-7890">
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Additional Information</legend>
+                        <p>I would like more information about:</p>
+
+                        <label for="cost"><input type="checkbox" name="interest" id="cost" value="Cost">Cost</label>
+
+                        <label for="product"><input type="checkbox" name="interest" id="product" value="Product">Product</label>
+
+                        <label for="train"><input type="checkbox" name="interest" id="train" value="Training">Training</label>
+
+                        <label for="other"><input type="checkbox" name="interest" id="other" value="Other">Other</label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Referral Source</legend>
+                        <label for="referral">How did you find us?</label>
+                        <select name="referral" id="referral">
+                            <option value="ad">Advertisement</option>
+                            <option value="friend">Friend or Family</option>
+                            <option value="google">Google</option>
+                            <option value="social">Social Media</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="questions">Questions?</label>
+                        <textarea id="questions" name="questions" rows="5" cols="35" placeholder="Text here."></textarea>
+                    </fieldset>
+
+                    <input type="submit" id="submit" value="Submit" class="btn">
+
+                    <input type="reset" id="reset" value="Reset" class="btn">
+                </form>
+            </div>
 
         </main>
 
