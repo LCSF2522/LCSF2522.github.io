@@ -5,7 +5,7 @@
     <head>
         <title>WaveCore</title>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="css/specials.css">
+        <link rel="stylesheet" href="css/styles.css">
         <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
     <!-- Body Content: header, nav, main, footer -->
@@ -13,8 +13,8 @@
 
         <div id="container">
 
-            <!-- Mobile Nav -->
-            <nav class="mobile-nav">
+        <!-- Mobile Nav -->
+        <nav class="mobile-nav">
             <div id="links">
                 <a href="index.html">Home</a>
                 <a href="about.html">About Us</a>
@@ -25,12 +25,12 @@
                 <a href="faqs.html">FAQs</a>
                 <a href="contact.html">Contact Us</a>
             </div>
-            <a class="menu-icon">
+            <a class="menu-icon" onclick="hamburger()">
                 <div>&#9776;</div>
             </a>
         </nav>
-
-        <header>
+        
+        <header id="logo">
             <!-- company banner goes here -->
             <a href="index.html"> <img src="images/wavecorelogo.png" alt="WaveCore Logo"></a>
         </header>
@@ -49,26 +49,28 @@
         </nav>
 
         <main>
-            <h1>Reasons You Should Buy Our Products:</h1>
-            <ul>
-                <li>Our products are user-friendly and energy-efficient</li>
-                <br>
-                <li>We offer high-quality microwaves for affordable prices</li>
-                <br>
-                <li>Our microwaves are designed with today's aesthetics in mind to match with your kitchen aesthetics</li>
-                <br>
-                <li>We also offer other microwaves that fit with less modern aesthetics, for a wide range of choice to match your preferences</li>
-                <br>
-                <li>We offer a wide range of types including but not limited to Over-The-Range and Countertop</li>
-                <br>
-                <li>We support local businesses</li>
-            </ul>
-            <br>
-            <br>
-            <br>
-            <h1>Product of the Week:</h1>
-            <h3>Over-The-Range with Non-Stick Interior Coating -- Currently <strong>25% off!</strong></h3>
-            <img src="images/product_of_the_week.jpg" alt="Photo of the Product of the Week">
+            <section class="team">
+                <figure>
+                    <img src="images/groupteam.jpg" alt="group of people standing" width="300" height="200">
+                    <figcaption>Our Team</figcaption>
+                </figure>
+                <article>
+                    <img src="images/team1.jpg" alt="woman with brown hair posing for a professional photo" class="round">
+                    <p>Executive - Liana Carter</p>
+                </article>
+                <article>
+                    <img src="images/team2.jpg" alt="man with greying hair standing for a professional photo" class="round">
+                    <p>Marketing - Mateo Silva</p>
+                </article>
+                <article>
+                    <img src="images/team3.jpg" alt="man with dark hair posing for a photo" class="round">
+                    <p>Head Sales Representative - Gavin Brooks</p>
+                </article>
+                <article>
+                    <img src="images/team4.jpg" alt="woman smiling for a photo" class="round">
+                    <p>Team Lead - Amara Patel</p>
+                </article>
+            </section>
         </main>
 
         <footer>
