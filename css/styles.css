@@ -252,4 +252,17 @@ footer p a{
         font-weight: bold;
         font-size: 1.25em;
     }
+
+    #contact h2, #contact h4 {
+        text-align: center;
+    }
+
+    #form {
+        text-align: center;
+        border: 2px solid #000;
+    }
+
+    #form fieldset {
+        border: 2px solid #351e49;
+    }
 }
