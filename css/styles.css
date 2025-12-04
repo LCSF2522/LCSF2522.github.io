@@ -5,6 +5,7 @@ body, header, nav, main, footer, h1, div, img, ul, figure, figcaption, section, 
     border: 0;
 }
 
+/* Mobile Viewport */
 .mobile-nav a {
     color: #000;
     font-family: 'Francois One', sans-serif;
@@ -17,8 +18,76 @@ body, header, nav, main, footer, h1, div, img, ul, figure, figcaption, section, 
 
 .mobile-nav {
     display: block;
+    background-color: cornflowerblue;
 }
 
 .tablet-desktop {
     display: none;
+}
+
+header {
+    top: 0;
+    height: 190px;
+}
+
+header img {
+    margin: 0 auto;
+}
+
+/* Main Content */
+main {
+    background-color: #e5e9fc;
+    padding: 2%;
+    font-size: 1.15em;
+    color: #000;
+    margin: 2%;
+    border-radius: 10px;
+}
+
+main p {
+    font-size: 1.25em;
+}
+
+/*Footer Content */
+footer {
+    text-align: center;
+    font-size: 0.85em;
+    margin-top: left;
+    clear: left;
+}
+
+footer a {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+
+
+
+/* Media Query for Tablet/Desktop Viewport */
+@media screen and (min-width: 630px),print {
+    .tablet-desktop {
+        display: block;
+        background-color: cornflowerblue;
+    }
+
+    .mobile-nav, .mobile {
+        display: none;
+    }
+
+    .tablet-desktop ul {
+        list-style-type: none;
+        text-align: center;
+    }
+
+    .tablet-desktop li {
+        font-size: 1.5em;
+        font-family: 'Francois One', sans-serif;
+		display: inline-block;
+		border-right: 1 px solid #fff;
+    }
+
+    header {
+        padding-bottom: 2%;
+    }
 }
