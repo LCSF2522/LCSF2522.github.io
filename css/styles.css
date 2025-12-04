@@ -126,10 +126,10 @@ footer p a{
     }
 
     .tablet-desktop {
-        display: block;
-        background-color: cornflowerblue;
         padding: 1%;
         margin-bottom: 1%;
+        display: block;
+        background-color: cornflowerblue;
     }
 
     .mobile-nav, .mobile {
@@ -179,6 +179,7 @@ footer p a{
         font-weight: bold;
         text-align: center;
     }
+    
 
     article {
         padding: 2%;
@@ -264,5 +265,9 @@ footer p a{
 
     #form fieldset {
         border: 2px solid #351e49;
+    }
+
+    .desktop {
+        text-align: center;
     }
 }
